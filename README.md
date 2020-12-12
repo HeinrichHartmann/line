@@ -1,8 +1,18 @@
-# USAGE
+# SYNOPSIS
 
-    cat file.txt | line <lineno>
+    line <line_start> [line_end]
 
-prints specified line from stdin
+Returns given set of lines read from stdin.
+
+# EXAMPLE
+
+    ; seq 100 | line 4
+    4
+
+    ; seq 100 | line 4 6
+    4
+    5
+    6
 
 # INSTALLATION
 
