@@ -1,10 +1,10 @@
-# SYNOPSIS
+### SYNOPSIS
 
     line <line_start> [line_end]
 
 Returns given set of lines read from stdin.
 
-# EXAMPLE
+### EXAMPLE
 
     ; seq 100 | line 4
     4
@@ -14,7 +14,7 @@ Returns given set of lines read from stdin.
     5
     6
 
-# INSTALLATION
+### INSTALLATION
 
     make
 
